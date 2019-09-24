@@ -105,7 +105,7 @@ void Json::ave(){
    if (_obj.size()==0)
       cout << "Error: No element found!!";
    else{
-      int tmp = 0;
+      float tmp = 0;
       for (unsigned int i = 0; i < _obj.size(); i++){
             tmp += _obj[i].Jsonvalue();
       }
